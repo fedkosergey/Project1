@@ -8,7 +8,7 @@ class mywindow(QtWidgets.QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
         
-        self.ui.label.setText('Hello3!')
+        self.ui.label.setText('Hello4!')
         self.ui.label.setFont(QtGui.QFont('SansSerif', 25)) 
         self.ui.label.setFixedHeight(50)
 
